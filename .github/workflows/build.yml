@@ -5,7 +5,7 @@ on:
     branches:
       - feature/up-focus
       - release
-
+  
 jobs:
   build:
     runs-on: ${{ matrix.os }}
